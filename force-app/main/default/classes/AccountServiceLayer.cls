@@ -30,7 +30,12 @@ public with sharing class AccountServiceLayer {
             'Account id = and log statement = ' + toLog
         );
     }
-
+    public static Account createDefaultAccount(){
+        Account acct= new Account();
+        acct.Name='Default Account';
+        acct.Description='Default Account Description';
+        return acct;
+    }
     /**
      * @description Changes the account's Shipping Street field to a hardcoded
      * value. You should do this kind of work in a before trigger, but this is a
