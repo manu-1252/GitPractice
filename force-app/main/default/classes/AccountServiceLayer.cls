@@ -36,7 +36,7 @@ public with sharing class AccountServiceLayer {
         acct.AccountNumber='1234566';
         acct.Description='Default Account Description';
         return acct;
-    }
+    } 
     /**
      * @description Changes the account's Shipping Street field to a hardcoded
      * value. You should do this kind of work in a before trigger, but this is a
