@@ -33,6 +33,7 @@ public with sharing class AccountServiceLayer {
     public static Account createDefaultAccount(){
         Account acct= new Account();
         acct.Name='Default Account';
+        acct.AccountNumber='1234566';
         acct.Description='Default Account Description';
         return acct;
     }
