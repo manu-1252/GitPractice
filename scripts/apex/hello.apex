@@ -5,6 +5,6 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-string tempvar = 'Enter_your_name_here';
-System.debug('Hello World!');
+Id tempvar = 'a1Q56000009aK2AEAU';
+System.debug(tempvar.getSObjectType().getDescribe().getName());
 System.debug('My name is ' + tempvar);
